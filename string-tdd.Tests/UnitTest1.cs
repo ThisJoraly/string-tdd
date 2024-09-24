@@ -32,7 +32,7 @@ public class StringTddUnitTest
     }
 
     [TestMethod]
-    public void CharacterCount_ReturnsCorrectCount()
+    public void CharCount_ReturnsCorrectCount()
     {
         string input = "ABCD EFGH IJKL";
         int expected = 14; // пробел - тоже символ!
@@ -43,7 +43,7 @@ public class StringTddUnitTest
     }
 
     [TestMethod]
-    public void NinthCharacter_ReturnsCorrectCharacter()
+    public void NinthChar_ReturnsCorrectCharacter()
     {
         string input = "This is a test string";
         char expected = 'a';
@@ -65,7 +65,7 @@ public class StringTddUnitTest
     }
 
     [TestMethod]
-    public void MaxConsecutiveDigits_ReturnsCorrectCount()
+    public void RepeatableDigits_ReturnsCorrectCount()
     {
         string input = "a 45161 b 1561913";
         int expected = 7;
@@ -76,7 +76,7 @@ public class StringTddUnitTest
     }
 
     [TestMethod]
-    public void AmCount_ReturnsCorrectCount()
+    public void PatternCount_ReturnsCorrectCount()
     {
         string input = "параметр, амнезия";
         int expected = 2;
